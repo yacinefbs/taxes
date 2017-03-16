@@ -2,13 +2,6 @@ package org.sid.entities;
 
 import java.util.Date;
 
-import javax.persistence.DiscriminatorValue;
-import javax.persistence.Entity;
-
-
-
-@Entity
-@DiscriminatorValue("IR")
 public class IR extends Taxe {
 
 	public IR() {
